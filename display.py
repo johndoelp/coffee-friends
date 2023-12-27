@@ -4,5 +4,5 @@ from time import sleep
 date = datetime.today()
 
 print("one")
-sleep(3)
+sleep(50)
 print(date)
