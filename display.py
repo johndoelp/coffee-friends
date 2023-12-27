@@ -3,10 +3,10 @@
 
 #import Pimoroni Inky wHAT Large e-Ink Display (Red/Black/White)
 #https://shop.pimoroni.com/products/inky-what?variant=13590497624147
-import sys
 from inky.auto import auto
 inky_display = auto()
 
+#import Pillow (https://pypi.org/project/Pillow/) to resize/edit/etc image file if needed
 from PIL import Image, ImageFont, ImageDraw
 
 #determine which wHAT is in use & set border color
@@ -18,8 +18,8 @@ w = inky_display.width
 h = inky_display.height
 
 #import date & sleep for stand-in refresh rate
-from datetime import datetime
-from time import sleep
+import datetime
+import time
 
 date = datetime.today()
 
@@ -30,6 +30,6 @@ pausecount = 0
 while pausecount < 5:
     print(pausecount)
     pausecount += 1
-    sleep(1)
+    time.sleep(1)
 
 print(date)
