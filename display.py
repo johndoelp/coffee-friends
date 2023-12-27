@@ -4,5 +4,11 @@ from time import sleep
 date = datetime.today()
 
 print("one")
-sleep(50)
+
+pausecount = 0
+while pausecount < 5:
+    print(pausecount)
+    pausecount += 1
+    sleep(1)
+
 print(date)
