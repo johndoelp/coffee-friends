@@ -8,7 +8,7 @@ def detect(status):
         #if current exeeds baseline avg current of:
         #the last 5sec?
         #sleep(10sec) post-boot then collect 10sec of passive current?
-        #change status = 1, which is appliance is active
+        #change status = 1, which sets appliance_status to active
         status = 1
         return status
 
