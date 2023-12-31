@@ -6,3 +6,5 @@ More documentation on wHAT can be found here: https://learn.pimoroni.com/article
 Inky wHAT git: https://github.com/pimoroni/inky
 
 to simulate Pimoroni e-Ink display on desktop: pip3 install inky
+
+# julia was here
